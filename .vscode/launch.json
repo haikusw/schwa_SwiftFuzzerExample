@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug SwiftFuzzerExample",
+            "program": "${workspaceFolder:SwiftFuzzerExample}/.build/debug/SwiftFuzzerExample",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftFuzzerExample}",
+            "preLaunchTask": "swift: Build Debug SwiftFuzzerExample"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release SwiftFuzzerExample",
+            "program": "${workspaceFolder:SwiftFuzzerExample}/.build/release/SwiftFuzzerExample",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftFuzzerExample}",
+            "preLaunchTask": "swift: Build Release SwiftFuzzerExample"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug ExampleFuzzer",
+            "program": "${workspaceFolder:SwiftFuzzerExample}/.build/debug/ExampleFuzzer",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftFuzzerExample}",
+            "preLaunchTask": "swift: Build Debug ExampleFuzzer"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release ExampleFuzzer",
+            "program": "${workspaceFolder:SwiftFuzzerExample}/.build/release/ExampleFuzzer",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftFuzzerExample}",
+            "preLaunchTask": "swift: Build Release ExampleFuzzer"
+        }
+    ]
+}
